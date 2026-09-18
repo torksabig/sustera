@@ -1,5 +1,10 @@
 # Helsinki large buildings
 
+## Sustera file (GitHub)
+
+- [`sustera.csv`](sustera.csv) — HQ, occupied offices, named technical-management sites, Helsinki Ryhti matches
+- [`sustera.json`](sustera.json) — same records plus sources
+
 Unattended agent that extracts **every live Helsinki building over 3000 m²** from Syke Ryhti.
 
 Municipality `091`. Source: [Ryhti OGC API Features](https://paikkatiedot.ymparisto.fi/geoserver/ryhti_building/ogc/features/v1) (`open_building` + `open_address`), CC BY 4.0.
