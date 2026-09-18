@@ -1,6 +1,6 @@
 # Helsinki large buildings
 
-Cursor agent + extractor for **every live Helsinki building over 3000 m²** in Syke Ryhti.
+Unattended agent that extracts **every live Helsinki building over 3000 m²** from Syke Ryhti.
 
 Municipality `091`. Source: [Ryhti OGC API Features](https://paikkatiedot.ymparisto.fi/geoserver/ryhti_building/ogc/features/v1) (`open_building` + `open_address`), CC BY 4.0.
 
@@ -8,21 +8,23 @@ This pipeline is **not** joined to weather, spot prices, or energy-usage series.
 
 ## Agent
 
-Project subagent: `.cursor/agents/helsinki-buildings-extractor.md`.
+`python3 agent.py` always live-fetches. No prompts.
 
-Ask it to extract Helsinki buildings ≥ 3000 m². It runs `extract.py` and reports the CSV.
+Cursor subagent: `.cursor/agents/helsinki-buildings-extractor.md` (also installed user-wide). Mention Helsinki buildings / extract / Ryhti and it should run on its own.
+
+Daily 06:00 local via launchd:
+
+```bash
+chmod +x install-schedule.sh
+./install-schedule.sh
+```
 
 ## Run
 
 ```bash
-python3 extract.py
-```
-
-Defaults: Helsinki `091`, threshold 3000 m². Reuses `data/cache/` when present; otherwise pages the live API.
-
-```bash
+python3 agent.py          # live fetch (agent)
+python3 extract.py        # reuse data/cache/ if present
 python3 extract.py --fetch
-python3 extract.py --min-sqm 3000 --buildings /path/to/open_buildings_091.csv --addresses /path/to/open_addresses_091.csv
 ```
 
 ## Output
