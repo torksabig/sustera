@@ -1,0 +1,115 @@
+{
+  "job": "live buildings in municipality 091 with gross_floor_area >= 3000.0 m2",
+  "municipality_number": "091",
+  "min_sqm": 3000.0,
+  "scanned_buildings": 53151,
+  "kept_buildings": 4775,
+  "with_address": 4775,
+  "gfa_min": 3000.0,
+  "gfa_max": 118466.0,
+  "gfa_sum": 31394073.0,
+  "excluded": "demolished/destroyed (06/07/08), GFA>=500000",
+  "fetched_at_utc": "2026-09-18T07:43:42Z",
+  "source": "https://paikkatiedot.ymparisto.fi/geoserver/ryhti_building/ogc/features/v1/collections/open_building/items",
+  "license": "CC BY 4.0 (Syke / Ryhti)",
+  "main_purpose_fi": {
+    "Kerrostalo": 3097,
+    "Toimisto-, tuotanto-, yhdyskuntatekniikan tai muut rakennukset": 1007,
+    "Julkinen rakennus": 668,
+    "Pientalo": 2,
+    "Talousrakennus": 1
+  },
+  "heating_energy_source_fi": {
+    "Kauko- tai aluelämpö": 4461,
+    "Maalämpö tms.": 96,
+    "(tyhjä)": 73,
+    "Maalämpöpumppu": 61,
+    "Raskas polttoöljy": 38,
+    "Kevyt polttoöljy": 20,
+    "Sähkö": 16,
+    "Muu": 4,
+    "Kivihiili": 4,
+    "Kaasu": 1,
+    "Puu": 1
+  },
+  "heating_method_fi": {
+    "Vesikeskuslämmitys": 4592,
+    "Ilmakeskuslämmitys": 96,
+    "Ei kiinteää lämmityslaitetta": 56,
+    "Sähkölämmitys": 16,
+    "(tyhjä)": 13,
+    "Uuni-takka-kamiinalämmitys": 2
+  },
+  "top10_by_gfa": [
+    {
+      "rank": "1",
+      "address_fin": "Muotoilijankuja 3 | Muotoilijankatu 1 | Hämeentie 135",
+      "gross_floor_area": "118466",
+      "volume": "538498",
+      "main_purpose_fi": "Toimisto-, tuotanto-, yhdyskuntatekniikan tai muut rakennukset"
+    },
+    {
+      "rank": "2",
+      "address_fin": "Messukuja 3 | Ratamestarinkatu 14 | Messuaukio 1 | Rautatieläisenkatu 3",
+      "gross_floor_area": "101120",
+      "volume": "1135220",
+      "main_purpose_fi": "Julkinen rakennus"
+    },
+    {
+      "rank": "3",
+      "address_fin": "Hermannin rantatie 5",
+      "gross_floor_area": "99292",
+      "volume": "691500",
+      "main_purpose_fi": "Julkinen rakennus"
+    },
+    {
+      "rank": "4",
+      "address_fin": "Fredikanterassi 5 | Fredikanterassi 3 | Fredikanterassi 1 | Firdonkatu 2",
+      "gross_floor_area": "93303",
+      "volume": "499000",
+      "main_purpose_fi": "Julkinen rakennus"
+    },
+    {
+      "rank": "5",
+      "address_fin": "Tennispalatsinaukio 4 | Urho Kekkosen katu 1 | Urho Kekkosen katu 5 | Fredrikinkatu 63a | Urho Kekkosen katu 3 | Annanaukio 2 | Narinkka 5 | Urho Kekkosen katu 7",
+      "gross_floor_area": "81257",
+      "volume": "644899",
+      "main_purpose_fi": "Julkinen rakennus"
+    },
+    {
+      "rank": "6",
+      "address_fin": "Salmisaarenranta 7 | Porkkalankatu 13",
+      "gross_floor_area": "77354",
+      "volume": "275440",
+      "main_purpose_fi": "Toimisto-, tuotanto-, yhdyskuntatekniikan tai muut rakennukset"
+    },
+    {
+      "rank": "7",
+      "address_fin": "Ratapihantie 17",
+      "gross_floor_area": "73458",
+      "volume": "230304",
+      "main_purpose_fi": "Toimisto-, tuotanto-, yhdyskuntatekniikan tai muut rakennukset"
+    },
+    {
+      "rank": "8",
+      "address_fin": "Asemapäällikönkatu 11 | Ratapihantie 7 | Junailijankuja 6-8 | Opastinsilta 12",
+      "gross_floor_area": "70707",
+      "volume": "449102",
+      "main_purpose_fi": "Toimisto-, tuotanto-, yhdyskuntatekniikan tai muut rakennukset"
+    },
+    {
+      "rank": "9",
+      "address_fin": "Haartmaninkatu 4",
+      "gross_floor_area": "63159",
+      "volume": "280479",
+      "main_purpose_fi": "Julkinen rakennus"
+    },
+    {
+      "rank": "10",
+      "address_fin": "Radiokuja 3 | Uutiskatu 5 | Radiokatu 5 | Radiokuja 1",
+      "gross_floor_area": "60514",
+      "volume": "318235",
+      "main_purpose_fi": "Toimisto-, tuotanto-, yhdyskuntatekniikan tai muut rakennukset"
+    }
+  ]
+}
